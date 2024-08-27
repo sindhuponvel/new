@@ -13,7 +13,7 @@ public class ShadowRoot {
 		d.manage().window().maximize();
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		d.get("https://demoapps.qspiders.com/ui/shadow?sublist=0");
-		d.findElement(By.xpath("//input[@placeholder='Enter your username']")).sendKeys("abd");
+		//d.findElement(By.xpath("//input[@placeholder='Enter your username']")).sendKeys("abd");
 		
 	}
 
